@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Hello') {
          steps {
-            cat task-definication.json
+            sh cat task-definication.json
          }
       }
    }
